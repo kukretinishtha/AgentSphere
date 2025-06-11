@@ -23,7 +23,7 @@ cd AgentSphere
 
 ✅ 2. Install Dependencies
 ```bash
-Use Python 3.10 or higher.
+Use Python 3.12.1 or higher.
 pip install -r requirements.txt
 ```
 ✅ 3. Add Your .env File
@@ -67,7 +67,7 @@ AgentSphere/
 │   ├── researcher.py              # Web search via DuckDuckGo
 │   ├── analyzer.py                # Analysis with scratchpad
 │   ├── writer.py                  # Structured report writing
-│   └── observer.py               # Quality judge for outputs
+│   └── observer.py                # Quality judge for outputs
 │
 ├── api/                           # FastAPI server
 │   └── main.py                    # Submit query / get results / monitor
