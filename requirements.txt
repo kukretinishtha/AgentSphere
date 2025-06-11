@@ -1,0 +1,13 @@
+openai
+langchain
+langgraph
+duckduckgo-search
+fastapi
+uvicorn
+python-dotenv
+jinja2
+streamlit
+requests
+langchain-community
+langchain-core
+python-dotenv
