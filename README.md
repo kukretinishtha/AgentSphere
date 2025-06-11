@@ -11,10 +11,10 @@ AgentSphere is a LangGraph-powered research assistant that uses multiple AI agen
 ✍️ Writer Agent: Produces a clean, structured report.
 📜 Streamlit UI: User-friendly frontend for interaction.
 🔁 Conversation Memory: Stores session history in-memory.
-🚀 Quickstart
-```
 
-## How to setup on local
+```
+##🚀 Quickstart
+### How to setup on local
 ✅ 1. Clone the Repo
 ```bash
 git clone https://github.com/yourusername/AgentSphere.git
@@ -33,7 +33,7 @@ Create a .env file in the root:
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
-## 🧪 How to Run
+### 🧪 How to Run
 ▶️ Run the Backend (FastAPI)
 ```bash
 uvicorn api.main:app --reload
@@ -46,7 +46,7 @@ streamlit run ui/app.py
 ```
 Available at: http://localhost:8501
 
-## 🧠 Sample Flow (UI/Logs)
+### 🧠 Sample Flow (UI/Logs)
 
 User submits a query:
 “What are the business and technical implications of AI agents in enterprise?”
